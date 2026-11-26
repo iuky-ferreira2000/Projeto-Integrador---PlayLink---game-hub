@@ -1,0 +1,35 @@
+/* ESTILOS GERAIS */
+
+:root {
+    --cor-fundo: #101827;
+    --cor-fundo-campos: #18273A;
+    --cor-texto: #F3F4F6;
+    --cor-texto-sec: #B9c4D5;
+    --cor-texto-discreto: #91A1BB;
+    --cor-roxo-principal: #7546E8;
+    --cor-roxo-claro: #B99AFF;
+    --cor-complementar: #22c55E;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(135deg, var(--cor-fundo), var(--cor-roxo-claro));
+    color: var(--cor-texto);
+}
+
+/* seção principal */
+
+#secao-principal {
+  background: var(--cor-fundo-campos);
+  display: flex;
+}
+
+
+
