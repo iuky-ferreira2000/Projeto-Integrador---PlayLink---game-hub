@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef4ff;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.titulo {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.profile-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* BANNER */
+
+.banner {
+    height: 150px;
+
+    background: linear-gradient(
+        120deg,
+        #3730a3,
+        #8b5cf6,
+        #6366f1
+    );
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 20px;
+
+    color: white;
+    font-size: 25px;
+}
+
+/* INFORMAÇÕES */
+
+.profile-info {
+    padding: 0 25px 30px;
+}
+
+/* FOTO */
+
+.avatar-area {
+    position: relative;
+
+    width: 120px;
+    height: 120px;
+
+    margin-top: -65px;
+    margin-bottom: 12px;
+}
+
+.avatar-area img {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    border: 5px solid white;
+
+    object-fit: cover;
+    display: block;
+}
+
+.online {
+    position: absolute;
+
+    bottom: 5px;
+    right: 3px;
+
+    width: 19px;
+    height: 19px;
+
+    background: #22c55e;
+
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/* NOME E STATUS */
+
+.profile-info h2 {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    margin-top: 10px;
+    color: #64748b;
+}
+
+.status {
+    color: #22c55e !important;
+}
+
+/* ESTATÍSTICAS */
+
+.estatisticas {
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+
+    margin: 30px 0;
+}
+
+.estatisticas div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.estatisticas strong {
+    font-size: 18px;
+}
+
+.estatisticas span {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* BOTÃO */
+
+.editar {
+    width: 100%;
+    padding: 13px;
+
+    border: 1px solid #ddd6fe;
+    border-radius: 12px;
+
+    background: #f5f3ff;
+    color: #5b21b6;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* JOGOS */
+
+.profile-info h3 {
+    margin: 28px 0 18px;
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.jogo img {
+    width: 65px;
+    height: 65px;
+
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.jogo span {
+    font-size: 13px;
+    color: #475569;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .profile-info {
+        padding: 0 18px 25px;
+    }
+
+    .jogo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .jogo span {
+        font-size: 11px;
+    }
+
+}
