@@ -27,7 +27,7 @@ body {
 /* seção principal */
 
 #secao-principal {
-  background: var(--cor-fundo);
+  background: var(--cor-fundo-campos);
   display: flex;
 }
 
