@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/mensagem.css">
+</head>
+<body>
+
+    <section id="page-messages" class="page">
+                    <div class="page-title"><div><span class="eyebrow">CONVERSE COM SEU SQUAD</span><h1>Mensagens</h1><p class="muted">Suas conversas com outros jogadores.</p></div></div>
+                    <div class="messages-layout panel">
+                        <aside class="conversation-sidebar">
+                            <div class="conversation-search"><span>⌕</span><input id="conversation-search" placeholder="Buscar conversas..."></div>
+                            <div id="conversation-list"></div>
+                        </aside>
+                        <section class="chat-area">
+                            <div class="chat-header"><div class="mini-avatar">R</div><div><strong id="chat-contact-name">Rafa7</strong><span class="online-dot">● Online</span></div></div>
+                            <div id="chat-messages" class="chat-messages">
+                                <div class="chat-empty">Selecione uma conversa para começar.</div>
+                            </div>
+                            <form id="message-form" class="message-compose">
+                                <input id="message-input" type="text" placeholder="Digite sua mensagem..." autocomplete="off">
+                                <button class="btn btn-primary" type="submit" aria-label="Enviar mensagem">➤</button>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+    
+</body>
+</html>
