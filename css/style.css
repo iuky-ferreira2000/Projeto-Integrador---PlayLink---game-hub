@@ -20,16 +20,47 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: radial-gradient(135deg, var(--cor-fundo), var(--cor-roxo-claro));
+    background: var(--cor-fundo);
     color: var(--cor-texto);
 }
 
 /* seção principal */
 
 #secao-principal {
-  background: var(--cor-fundo-campos);
-  display: flex;
+    display: flex;
 }
 
+/* navegação */
+
+#aba-de-navegação {
+    background: var(--cor-fundo-campos);
+    margin: 0;
+    text-align: center;
+}
+
+.menu {
+    padding: 40px;
+}
+
+.menu a {
+    display: block;
+    padding: 20px;
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: var(--cor-roxo-claro);
+}
+
+.aba-inferior {
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+.aba-inferior p {
+    padding-top: 20px;
+    text-align: justify;
+}
 
 
