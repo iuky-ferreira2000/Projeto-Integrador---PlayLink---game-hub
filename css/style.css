@@ -1,0 +1,148 @@
+:root {
+    --cor-fundo: #0F1117;
+    --cor-fundo-sec: #1A1D29;
+    --cor-texto: #F3F4F6;
+    --cor-texto-sec: #9CA3AF;
+    --cor-destaque: #7C3AED;
+    --cor-destaque2: #c7f305;
+    --cor-complementar: #06B6D4;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: #d4d4d4;
+}
+
+/* CABEÇALHO */
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(90deg, #2c0cbd, #F3F4F6, #2c0cbd);
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+
+/* Menu */
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #0d033f;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  
+}
+
+.menu a {
+    text-decoration: none;
+    color: #d4d4d4;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: var(--cor-complementar);
+}
+
+/*Inicio*/
+
+.destaque {
+  position: relative;
+  background: var(--cor-texto);
+  color: var(--cor-fundo);
+  border-radius: 15px;
+  margin: 40px;
+  padding: 40px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 20px;
+}
+
+.destaque h1 {
+  color: var(--cor-complementar);
+  padding: 10px 0px;
+}
+
+.destaque p {
+  padding-bottom: 20px;
+}
+
+.destaque img {
+  padding: 25px;
+  width: 600px;
+  height: auto;
+}
+
+
+.butao1 {
+  position: absolute;
+  top: 165px;
+  display: inline-block;
+  background-color: var(--cor-complementar);
+  color: var(--cor-fundo);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgb(133, 133, 133);
+}
+
+ .butao1:hover {
+  background-color:  var(--cor-destaque);
+  color: var(--cor-texto);
+  transform: translate(-3px);
+}
+
+#plataformas h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.lista-plataformas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--cor-texto);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+}
+
+.card h3 {
+  color: var(--cor-complementar);
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
